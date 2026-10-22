@@ -5,6 +5,8 @@ Qhawana («mirador» en quechua) sirve una página de vistas, datos y gráficos 
 [Tiqsi](https://github.com/achalmed/tiqsi): funciona solo, con el anfitrión mínimo de Tiqsi, o dentro de una plataforma
 que lo monte por su manifiesto (como Qillqa).
 
+**Recorrido interactivo:** <https://achalmed.github.io/qhawana/> (el código del sitio está en [`sitio/`](sitio/)).
+
 ```bash
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt -e '.[pruebas,sola]'   # requiere tiqsi
 .venv/bin/python -m pytest -q tests
